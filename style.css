@@ -1,0 +1,112 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #004479;
+}
+
+
+#parent-of-all {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    width: 85%;
+    margin-top: 47px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 21px;
+    padding-bottom: 51px;
+    height: auto;
+    min-height: 221px;
+    position: relative;
+}
+
+#number-of {
+    position: absolute;
+    top: 0px;
+    left: 1%;
+    height: 20px;
+    font-size: 0.6em;
+    line-height: 20px;
+}
+
+#reset-btn {
+    position: absolute;
+    text-align: right;
+    height: 20px;
+    width: 20px;
+    top: 0px;
+    right: 1%;
+    font-size: 0.9em;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+#next-btn {
+    width: 98%;
+    margin-top: 7px;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-color: rgb(116, 59, 250, 0.7);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 3px;
+    height: 33px;
+    line-height: 33px;
+    cursor: pointer;
+    font-size: 0.7em;
+    grid-row-start: 3;
+    position: absolute;
+    bottom: 9px;
+}
+
+#up-con,
+#bellow-con {
+    width: 98%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+#up-con {
+    min-height: 69px;
+    height: auto;
+    border: 1px solid #cfcece;
+    border-radius: 3px;
+}
+
+#bellow-con {
+    height: auto;
+    margin-top: 7px;
+    /* border: 1px solid #000000; */
+}
+
+
+
+
+
+
+
+
+.none-one {
+    margin-left: 7px;
+}
+
+.one {
+    margin-left: 0px;
+}
+
+
+@media (min-width: 715px) {
+
+    #parent-of-all {
+        width: 77%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
